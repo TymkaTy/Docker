@@ -167,6 +167,8 @@ cho -e "# TYPE OILCOINT_metric1 gauge\nOILCOINT_metric1 0" | curl --data-binary 
 (Значение 0 меняем на любое другое)
 * Копируем переменную OILCOINT_metric1 и вставляем в cod
 * Нажимаем run 
+![image](https://github.com/user-attachments/assets/49d9f76a-a545-485d-b191-ae67ebf6ddc3)
+Должно получится вот так
 
 
 
