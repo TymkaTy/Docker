@@ -15,7 +15,7 @@ cp config/* /mnt/common_volume/swarm/grafana/config/ && \
 mv grafana.yaml docker-compose.yaml && \
 docker compose up -d
 ```
-> [!IMPORTMANT]
+> [!IMPORTANT]
 > В последней команда отказываемся от установки
 
  * Устанавливаем последнею версию и утилитю docker-compose
