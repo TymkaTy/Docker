@@ -16,7 +16,7 @@ mv grafana.yaml docker-compose.yaml && \
 docker compose up -d
 ```
 > [!IMPORTANT]
-> В последней команда отказываемся от установки
+> В последней команде отказываемся от установки
 
  * Устанавливаем последнею версию и утилитю docker-compose
 
