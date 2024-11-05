@@ -13,10 +13,8 @@ sudo chown -R $(id -u):$(id -g) {/mnt/common_volume/swarm/grafana/config,/mnt/co
 touch /mnt/common_volume/grafana/grafana-config/grafana.ini && \
 cp config/* /mnt/common_volume/swarm/grafana/config/ && \
 mv grafana.yaml docker-compose.yaml && \
-docker compose up -d
+
 ```
-> [!IMPORTANT]
-> В последней команде отказываемся от установки
 
  * Устанавливаем последнею версию и утилитю docker-compose
 
