@@ -105,6 +105,15 @@ sudo vi prometheus.yaml
 > [!NOTE]
 > Всё должно выглядить как на скриншоте `https://github.com/TymkaTy/Docker/blob/main/grafana_stack_for_docker/Screenshot_Prometheus.png`
 
+Если не работает то переходим в 
+
+```
+cd grafana_stack_for_docker
+sudo docker compose stop
+sudo docker compose up -d
+```
+То есть перезапускаем докер
+
 ### VicroriaMetrics
 
 * Для начала изменим docker-compose.yaml:
